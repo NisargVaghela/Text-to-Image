@@ -152,7 +152,7 @@ function App() {
             </Backdrop>
             {isLoading ? <center><h2 style={{ color: colors.primaryColor }}>Generating...</h2></center> :
               image ?
-                <img src={image} alt="generated" style={{ width: 600, maxWidth: 600 }} /> :
+                <img src={image} alt="generated" style={{ maxWidth: 500 }} /> :
                 <img src={noImg} alt="placeholder" />
             }
           </Box>
